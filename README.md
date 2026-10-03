@@ -1,19 +1,16 @@
-# Air Hockey Game
+# Air Hockey
 
-Player-vs-AI game of Air Hockey with realistic physics. Coded in a group of 4 during my last year of high school.
+A player versus AI air hockey game written in Python with pygame, with simple physics for the puck and the paddles.
 
-# Members who contributed to the project
+## Usage
 
-Elian GUARRIGUES
-Logan
-Ryan GUILLERMIN
-Baptiste PRAS
+```bash
+pip install pygame
+python main.py
+```
 
-# How to use it ?
+The menu is in French. `Jouer` starts a game, and `Options` sets the AI difficulty, the time limit, the score limit and the window size. Try beating the AI in hardcore mode.
 
-First make sure that you have a working python environment with `pygame` installed, then just run `main.py`.
+## Authors
 
-A window will open, select `Jouer` to start a game.
-Select `Options` to change settings. You can change the difficulty of the bot, the time limit, the score limit and the window size.
-
-Try beating the AI in hardcore mode if you can. ;)
+Elian Guarrigues, Logan, Ryan Guillermin, and Baptiste Pras.
